@@ -240,3 +240,29 @@ git branch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 yazarakta hangi branch ta olduğumuzu öğrenebiliriz.
+
+Proje üzerinde yapılan değişiklikleri Remote Repoya kaydetme
+------------------------------------------------------------
+
+Oluşturduğumuz **test.txt** dosyasına bir şeyler yazıp kaydedelim ve console a sırası ile aşağıdaki kodları yazalım.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git status
+git add .
+git status
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+![status2](https://user-images.githubusercontent.com/21074849/37613341-d1a402b4-2bb8-11e8-8f91-1bd0d2e71f46.png)
+
+İlk yazdığımız git status ile değişiklik yapıp takibe alınmayan test.txt dosyamızı gördük. Daha sonra git add . ile takibe aldık ve git status ile tekrer takibe alınıp alınmadığını kontrol ettik. Takibe aldığımıza göre şimdi remote repoya yaptığımız değişikliği atalım.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git commit -m "test.txt dosyası değiştirildi"  
+git push origin master
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+![commit](https://user-images.githubusercontent.com/21074849/37613632-90c72d38-2bb9-11e8-95d6-89d2d7560d4b.png)
+
+Kırmızı çerçeve içine aldığımız kısım bize 52 klasöründen sonra yapılan değişiklikler 22 klasörüne kaydedildiğini gösteriyor.
+
+![github2](https://user-images.githubusercontent.com/21074849/37613816-083bad62-2bba-11e8-98b4-f1487e939428.png)
