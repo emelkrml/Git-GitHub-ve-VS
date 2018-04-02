@@ -6,7 +6,7 @@ Buradan **Git** seçeneğini seçip OK diyoruz.
 
 ![vs](https://user-images.githubusercontent.com/21074849/37616497-2e14c22e-2bc1-11e8-8fc5-bec3a9910336.png)
 
-Visual Studio' da **File -> New Project** diyerek bir tane Console Application açalım. 
+Visual Studio' da **File -> New Project** diyerek bir tane ***Console Application*** açalım. 
 
 Üstte **View -> Team Explorer** tıklarsak sağ tarafta Team Explorer sekmesi açılır.
 
@@ -21,7 +21,7 @@ Bu sekmede bulunna ;
 **Clone;** ile GitHub' tan proje çekebiliriz.
 
 
-Projeyi oluşturduğumuz dosyayı kontrol edersek **.git, .gitignore ve .gitattributes** dosyalarını görürüz. Bu da oluşturduğumuz proje gti tarafından takip ediliyor demektir.
+Projeyi oluşturduğumuz dosyayı kontrol edersek **.git, .gitignore ve .gitattributes** dosyalarını görürüz. Bu da oluşturduğumuz proje git tarafından takip ediliyor demektir.
 
 ![vsgit](https://user-images.githubusercontent.com/21074849/37619620-078e8edc-2bcb-11e8-80d0-c1f61b0f0d39.png)
 
@@ -31,11 +31,11 @@ Projeyi oluşturduğumuz dosyayı kontrol edersek **.git, .gitignore ve .gitattr
 
 Yaptığımız değişiklikleri kaydetmek için projeye sağ tıklayıp --> commit i seçelim.
 
-![vscommit2](https://user-images.githubusercontent.com/21074849/37619773-80b4fa30-2bcb-11e8-926a-34bc5158b203.png)
+![g0](https://user-images.githubusercontent.com/21074849/38192098-0e093a88-3674-11e8-8163-6cea581538d6.png)
 
  Sol tarafta **Enter a commit message** yazan yere commit mesajımızı girelim. 
  
-![vscommes](https://user-images.githubusercontent.com/21074849/37620034-32a5ebc8-2bcc-11e8-8bd8-b621bfaae3e3.png)
+![g1](https://user-images.githubusercontent.com/21074849/38192099-0e39a95c-3674-11e8-841a-e00535a389b7.png)
 
 **Commit All;** sadece değişiklikleri repomuza kaydeder, GitHub a kaydetmez.
 
@@ -47,6 +47,8 @@ Yaptığımız değişiklikleri kaydetmek için projeye sağ tıklayıp --> comm
 
 ![vsurl](https://user-images.githubusercontent.com/21074849/37620438-43385e34-2bcd-11e8-8267-a3a0cf5f4819.png)
 
-Bunun için GitHub hesabımızda repo açıp url ini kopyalayalım.
+Bunun için GitHub hesabımızda GitProject adında repo açıp url ini buraya kopyalayalım ve Publish diyelim. GitHub sayfasını yenilediğimizde projenin glmiş olduğunu görürüz.
+
+![g2](https://user-images.githubusercontent.com/21074849/38192336-17a616fa-3675-11e8-97fe-2b1635d5032a.png)
  
  
